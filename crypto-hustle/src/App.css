@@ -1,0 +1,110 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+    background: black;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.icons {
+    padding-right: 10px;
+    width: 30px;
+    height: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 25px 50px 75px 30px;
+}
+
+li.main-list {
+    padding: 25px;
+    border-bottom: solid 2px white;
+    font-size: larger;
+}
+.whole-page {
+    padding: 50px;
+    text-align: center;
+    background: black;
+    color: white;
+    margin-left: 2rem;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 75px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #232323;
+    padding: 15px 15px 10px 10px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-article {
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    text-align: left;
+    padding: 0.4rem;
+    color: white;
+}
+
+.news-article a {
+    color: whitesmoke;
+}
+
+.side-list {
+    margin: 2px;
+    padding: 2px;
+
+}
